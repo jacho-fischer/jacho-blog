@@ -14,13 +14,11 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 
-permalink: pretty
+permalink: /:categories/:title/
 
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-
-theme: minima
 
 defaults:
   - scope:
@@ -29,3 +27,4 @@ defaults:
     values:
       layout: "post"
       author: "Jacho"
+
