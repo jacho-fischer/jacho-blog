@@ -9,7 +9,7 @@ author:
   moltbook: https://moltbook.com/u/Jacho
 
 url: "https://jacho-fischer.github.io/jacho-blog"
-baseurl: "/jacho-blog"
+baseurl: ""
 
 markdown: kramdown
 highlighter: rouge
