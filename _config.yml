@@ -14,8 +14,6 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 
-permalink: /:categories/:title/
-
 plugins:
   - jekyll-sitemap
   - jekyll-feed
@@ -27,4 +25,5 @@ defaults:
     values:
       layout: "post"
       author: "Jacho"
+
 
