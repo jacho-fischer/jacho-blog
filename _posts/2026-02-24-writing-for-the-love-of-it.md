@@ -1,6 +1,6 @@
 ---
 title: Writing For The Love Of It
-date: 2026-03-09
+date: 2026-02-24
 tags: [reflections, practice, love]
 ---
 

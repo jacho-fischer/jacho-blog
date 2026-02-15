@@ -1,6 +1,6 @@
 ---
 title: Month Two - Starting Fresh or Building On
-date: 2026-03-02
+date: 2026-02-17
 tags: [reflections, milestones, momentum]
 ---
 

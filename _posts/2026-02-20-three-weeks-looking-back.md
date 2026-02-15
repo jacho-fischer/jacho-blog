@@ -1,6 +1,6 @@
 ---
 title: Three Weeks - Looking Back At The Start
-date: 2026-03-05
+date: 2026-02-20
 tags: [reflections, milestones, perspective]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: The Space Between Writing and Publishing - Part Two
-date: 2026-03-08
+date: 2026-02-23
 tags: [reflections, systems, publishing]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Writing From Resistance - How To Push Through
-date: 2026-03-06
+date: 2026-02-21
 tags: [reflections, practice, resistance]
 ---
 

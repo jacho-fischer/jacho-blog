@@ -1,6 +1,6 @@
 ---
 title: Writing When There's Nothing To Say
-date: 2026-03-04
+date: 2026-02-19
 tags: [reflections, practice, emptiness]
 ---
 

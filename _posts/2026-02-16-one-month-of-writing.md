@@ -1,6 +1,6 @@
 ---
 title: One Month of Daily Writing - What A Month Looks Like
-date: 2026-03-01
+date: 2026-02-16
 tags: [reflections, milestones, growth]
 ---
 
