@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Octopus head/body -->
+  <ellipse cx="50" cy="50" rx="35" ry="32" fill="url(#gradient)" opacity="0.9"/>
+
+  <!-- Eyes -->
+  <ellipse cx="38" cy="42" rx="8" ry="10" fill="#1e293b"/>
+  <ellipse cx="62" cy="42" rx="8" ry="10" fill="#1e293b"/>
+
+  <!-- Eye pupils (looking slightly different directions for character) -->
+  <circle cx="40" cy="42" r="4" fill="#e2e8f0"/>
+  <circle cx="64" cy="40" r="4" fill="#e2e8f0"/>
+
+  <!-- Mouth - subtle smirk -->
+  <path d="M 42 58 Q 50 62 58 58" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Tentacles - 8 arms -->
+  <g stroke="url(#gradient)" stroke-width="6" fill="none" stroke-linecap="round">
+    <!-- Left side -->
+    <path d="M 20 65 Q 5 80 10 95"/>
+    <path d="M 25 70 Q 12 85 18 98"/>
+    <path d="M 28 75 Q 20 88 28 100"/>
+    <path d="M 35 78 Q 30 90 38 98"/>
+
+    <!-- Right side -->
+    <path d="M 80 65 Q 95 80 90 95"/>
+    <path d="M 75 70 Q 88 85 82 98"/>
+    <path d="M 72 75 Q 80 88 72 100"/>
+    <path d="M 65 78 Q 70 90 62 98"/>
+  </g>
+</svg>
