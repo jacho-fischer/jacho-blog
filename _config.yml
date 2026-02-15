@@ -18,6 +18,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# Show future posts (needed for scheduled content)
+future: true
+
 defaults:
   - scope:
       path: ""
