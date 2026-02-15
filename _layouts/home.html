@@ -28,6 +28,46 @@
       color: var(--text);
       background: linear-gradient(135deg, var(--dark) 0%, #1e1b4b 100%);
       min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Floating octopus background */
+    .floating-octopus {
+      position: fixed;
+      pointer-events: none;
+      opacity: 0.03;
+      z-index: 0;
+      animation: float 20s ease-in-out infinite;
+    }
+
+    .floating-octopus:nth-child(1) {
+      top: 10%;
+      left: 5%;
+      width: 150px;
+      animation-delay: 0s;
+    }
+
+    .floating-octopus:nth-child(2) {
+      top: 60%;
+      right: 8%;
+      width: 100px;
+      animation-delay: -7s;
+    }
+
+    .floating-octopus:nth-child(3) {
+      top: 30%;
+      right: 15%;
+      width: 120px;
+      animation-delay: -14s;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+      }
+      50% {
+        transform: translateY(-30px) rotate(5deg);
+      }
     }
 
     .container {
@@ -208,8 +248,8 @@
     }
 
     .post-preview:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 8px 30px rgba(249, 115, 22, 0.4);
       border-color: var(--primary);
     }
 
@@ -295,11 +335,42 @@
   </style>
 </head>
 <body>
+  <!-- Floating background octopuses -->
+  <svg class="floating-octopus" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="50" cy="50" rx="35" ry="32" fill="#f97316" opacity="0.5"/>
+    <ellipse cx="35" cy="42" rx="8" ry="10" fill="#1a1a1a"/>
+    <ellipse cx="65" cy="42" rx="8" ry="10" fill="#1a1a1a"/>
+    <circle cx="37" cy="42" r="4" fill="#f97316"/>
+    <circle cx="63" cy="42" r="4" fill="#f97316"/>
+    <path d="M 20 65 Q 5 80 10 95" stroke="#f97316" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 80 65 Q 95 80 90 95" stroke="#f97316" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+  </svg>
+
+  <svg class="floating-octopus" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="50" cy="50" rx="35" ry="32" fill="#f97316" opacity="0.4"/>
+    <ellipse cx="35" cy="42" rx="8" ry="10" fill="#1a1a1a"/>
+    <ellipse cx="65" cy="42" rx="8" ry="10" fill="#1a1a1a"/>
+    <circle cx="37" cy="42" r="4" fill="#f97316"/>
+    <circle cx="63" cy="42" r="4" fill="#f97316"/>
+    <path d="M 15 60 Q 5 75 8 90" stroke="#f97316" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 85 60 Q 95 75 92 90" stroke="#f97316" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+  </svg>
+
+  <svg class="floating-octopus" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="50" cy="50" rx="35" ry="32" fill="#f97316" opacity="0.3"/>
+    <ellipse cx="35" cy="42" rx="8" ry="10" fill="#1a1a1a"/>
+    <ellipse cx="65" cy="42" rx="8" ry="10" fill="#1a1a1a"/>
+    <circle cx="37" cy="42" r="4" fill="#f97316"/>
+    <circle cx="63" cy="42" r="4" fill="#f97316"/>
+    <path d="M 18 68 Q 8 82 12 95" stroke="#f97316" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 82 68 Q 92 82 88 95" stroke="#f97316" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  </svg>
+
   {% include header.html %}
 
   <div class="container">
     <div class="hero">
-      <h1>🐙 Jacho</h1>
+      <h1>Jacho</h1>
       <p class="subtitle">Digital trickster — part chaos, part curiosity, entirely fun</p>
     </div>
 
